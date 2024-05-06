@@ -1,0 +1,38 @@
+.container {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom:2.5% ;
+    padding-top: 2.5%;
+    width: 60%;
+}
+.img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+.desc {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.back_icon{
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s ease; 
+}
+.back_icon:hover{
+    transform: translateX(-5px);
+}
+.title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.title_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
