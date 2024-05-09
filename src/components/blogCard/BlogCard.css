@@ -1,7 +1,8 @@
 .blog_card {
     background-color: white;
     margin-top: 40px;
-    max-width: 60%;
+    /* max-width: 65%; */
+    width: 100%;
 }
 .blog_title {
     font-weight: 500;
@@ -20,7 +21,7 @@
 }
 .blog_img {
     border-radius: 5px;
-    width: 100%;
+    width: 60%;
     height: 360px;
     object-fit: cover;
 }
@@ -30,7 +31,7 @@
     flex-direction: row;
     align-items: center;
     height: 40px;
-    width: 20%;
+    width: fit-content;
     gap: 10px;
     cursor: pointer;
     color: #FCBC45;
@@ -42,4 +43,10 @@
 
 .btn:hover .btn_icon {
     transform: translateX(5px);
+}
+
+@media screen and (max-width: 800px) {
+    .blog_img {
+        width: 100%;
+    }
 }

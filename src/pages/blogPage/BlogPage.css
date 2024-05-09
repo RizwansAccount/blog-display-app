@@ -3,11 +3,11 @@
     padding-right: 7%;
     padding-bottom:2.5% ;
     padding-top: 2.5%;
-    width: 60%;
+    /* width: 100%; */
 }
 .img {
     height: 380px;
-    width: 100%;
+    width: 60%;
     object-fit: cover;
 }
 .desc {
@@ -35,4 +35,10 @@
     align-items: center;
     gap: 10px;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        width: 100%;
+    }
 }
